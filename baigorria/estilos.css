@@ -1,3 +1,64 @@
-.carousel {
-    
+.logo {
+    height: 100px;
+}
+
+.body {
+    background-color: black;
+}
+
+.nav-item .nav-link img {
+    width: 25px;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+}
+
+.segundoMenu {
+    width: 100%;
+}
+
+.articulosCatalogo {
+    width: 10%;
+}
+
+.barra-buscadora {
+    width: 50%;
+}
+
+.segunda-seccion-home {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.segunda-seccion-home img {
+    width: 30%;
+}
+
+.tercera-seccion-home {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.imagenesBienvenido {
+    width: 10% !important;
+}
+
+
+.bienvenidoSeccion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+
+}
+
+.bienvenidoCaja{
+    width: 100%;
+   align-items: center;
 }
