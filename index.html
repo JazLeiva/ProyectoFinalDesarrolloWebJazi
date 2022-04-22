@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Tienda Cursed | Tu tienda online</title>
+</head>
+
+<body>
+
+  <!-- header -->
+
+  <nav class="navbar navbar-expand-xl navbar-white bg-dark">
+    <div class="container-fluid inicio">
+      <a class="navbar-brand" href="#"><img class="logo" src="./fotos/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark"
+        aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- menu -->
+
+      <div class="collapse navbar-collapse show" id="navbarDark">
+        <ul class="navbar-nav me-auto mb-2 mb-xl-0 lista-nav">
+          <li class="nav-item">
+            <a class="nav-link link-warning active" aria-current="page" href="#"> <img src="fotos/bienvenido-logo.png" alt=""> Bienvenido</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-warning" href="#"> <img src="fotos/ayuda-logo.png" alt=""> Ayuda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> <img src="fotos/carrito-logo.png" alt=""> Mi carrito</a>
+          </li>
+        </ul>
+
+        <!-- buscador -->
+
+        <form class="d-flex barra-buscadora">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- segundo menu -->
+
+  <div class="btn-group d-flex justify-content-center segundoMenu ">
+    <div class="btn-group  menuCatalogo">
+    
+      <button type="button" class="btn btn-dark dropdown-toggle rounded-0 articulosCatalogo" data-bs-toggle="dropdown">Remeras</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Cortos</a></li>
+        <li><a class="dropdown-item" href="#">Basicos</a></li>
+        <li><a class="dropdown-item" href="#">Deportivas</a></li>
+      </ul>
+    </div>
+    <button type="button" class="btn btn-dark dropdown-toggle rounded-0 articulosCatalogo" data-bs-toggle="dropdown">Pantalones</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Jeans</a></li>
+        <li><a class="dropdown-item" href="#">Short</a></li>
+        <li><a class="dropdown-item" href="#">Deportivo</a></li>
+      </ul>
+      <button type="button" class="btn btn-dark dropdown-toggle rounded-0 articulosCatalogo" data-bs-toggle="dropdown">Vestidos</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">De noche</a></li>
+        <li><a class="dropdown-item" href="#">Faldas</a></li>
+      </ul>
+      <button type="button" class="btn btn-dark dropdown-toggle rounded-0 articulosCatalogo" data-bs-toggle="dropdown">Abrigos</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Sweters</a></li>
+        <li><a class="dropdown-item" href="#">Buzos</a></li>
+        <li><a class="dropdown-item" href="#">Camperas</a></li>
+      </ul>
+      <button type="button" class="btn btn-dark dropdown-toggle rounded-0 articulosCatalogo" data-bs-toggle="dropdown">Trajes de baño</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Bikinis</a></li>
+        <li><a class="dropdown-item" href="#">Enteros</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Carousel -->
+
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="fotos/carousel1.jpg" alt="imagen del carousel" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="fotos/carousel2.jpg" alt="imagen del carousel" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="fotos/carousel1.jpg" alt="imagen del carousel" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<div class="segunda-seccion-home">
+<img src="fotos/outlet.png" class="img-thumbnail" alt="Cinque Terre">
+<img src="fotos/novedad.png" class="img-thumbnail" alt="Cinque Terre">
+<img src="fotos/accesorios.png" class="img-thumbnail" alt="Cinque Terre">
+</div>
+
+<div class="tercera-seccion-home">
+  <img src="fotos/bikinis-ganga.jpg" class="img-circle" alt="Cinque Terre">
+  <img src="fotos/jeans-las-locas.jpeg" class="img-circle" alt="Cinque Terre">
+</div>
+
+<!-- seccion gracias por elegirnos / bienvenido -->
+<!-- <div class="card bienvenidoCaja"></div> -->
+
+  <div class="card-body bienvenidoSeccion">
+
+    <p class="h3 text-center">GRACIAS POR ELEGIRNOS</p>
+    
+    <div class="imagenesBienvenido"> 
+    <img src="fotos/habla.png" alt="corazon">
+    This is some text within a card body Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ut quas commodi quae iusto iure necessitatibus similique veniam nihil doloremque! Quis repellendus reprehenderit, nisi fugiat nulla quia minima repudiandae ipsa?. </div>
+
+    <div class="imagenesBienvenido">
+    <img  src="fotos/mujer.png" alt="">
+    This is some text within a card body Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam impedit voluptatum, rerum necessitatibus harum quidem quod suscipit magnam et, corrupti commodi dolores cumque beatae ab eligendi architecto. Voluptatum, earum ut..
+  </div>
+
+  <div class="imagenesBienvenido"> <img src="fotos/percha.png" alt="">
+    This is some text within a card body Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ab, delectus earum odio, soluta quo dignissimos modi tempora numquam, eos voluptatibus cum maxime voluptates quod. Perspiciatis ratione corporis commodi laudantium..
+  </div>
+</div>
+
+  <!-- vinculacion con javascrip -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+
+  
+<!-- footer -->
+<footer class="text-center text-white" style="background-color: #333232;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="white"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    
+    <a class="text-white">© 2020 Copyright: tiendacursed</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+
+</html>
